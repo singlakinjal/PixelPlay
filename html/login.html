@@ -4,25 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
 
 <body>
-    <div class="outerdiv">
-        <div class="innerdiv">
-            <p class="elements" id="logintoyouraccount"> Log in to your account</p>
-            <label for="username" class="elements" id="hi">Username/Email</label>
-            <!--  -->
-            <input id="username" type="text" class="elements"  placeholder="Please enter your username ">
-            <label for="password" class="elements">Password</label>
-            <input id="password" type="password" class="elements" placeholder="Please enter your password  ">
-            <!-- ek show password ka option add krna hai  -->
-            <p class="elements">Forgot your password?</p>
-            <button class="elements">Start Playing</button>
-            <p class="elements" id="notauser">Don't have an account yet?<a href="Signup.html">Sign up Now</a></a></p>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                🎮 PixelPlay
+            </a>
+            <nav class="main-nav">
+                <a href="about.html" class="nav-link">About</a>
+                <a href="profile.html" class="nav-link">Profile</a>
+                <a href="settings.html" class="nav-link">Settings</a>
+                <a href="login.html" class="nav-link">Login</a>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    
+    <main class="container">
+       
+            <div class="innerdiv">
+                <p class="elements" id="logintoyouraccount"> Log in to your account</p>
+                <label for="username" class="elements" id="hi">Username</label>
+                <input id="username" type="text" class="elements" placeholder="Please enter your username ">
+                <label for="password" class="elements">Password</label>
+                <input id="password" type="password" class="elements" placeholder="Please enter your password  ">
+                <p class="elements">Forgot your password?</p>
+                <button class="elements">Start Playing</button>
+                <p class="elements" id="notauser">Don't have an account yet?<a href="Signup.html">Sign up Now</a></a></p>
+            
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 PixelPlay Hub. A Capstone Project for SNW.</p>
+        </div>
+    </footer>
 
 </body>
 
