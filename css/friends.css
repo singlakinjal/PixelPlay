@@ -1,0 +1,40 @@
+
+
+/* Center message + button in the page */
+main {
+    min-height: calc(100vh - 200px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+/* Add Friends button */
+main button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background: #2f65d9;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main button:hover {
+    background: #2453c0;
+}
+
+
+
+
+
+
+

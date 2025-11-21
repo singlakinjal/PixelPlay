@@ -1,0 +1,19 @@
+img{
+
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+.games{
+    display: flex;
+    gap: 2rem;
+
+}
+p{
+    text-align: center;
+}
+.socials{
+    display: flex;
+
+}
