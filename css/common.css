@@ -68,4 +68,13 @@ a {
     color: #F9FAFB;
     text-decoration: none;
 }
+.support a{
+    color: #9CA3AF;
+}
+.support h4{
+    color: aqua;
+} 
+.follow h4{
+    color: aqua;
 
+}
