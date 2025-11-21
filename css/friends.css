@@ -2,13 +2,13 @@
 
 /* Center message + button in the page */
 main {
-    min-height: calc(100vh - 200px); 
+    min-height: 26rem; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     padding: 40px 20px;
+    /* background-color: pink */
 }
 
 main p {
