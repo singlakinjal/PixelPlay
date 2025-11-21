@@ -1,0 +1,71 @@
+html{
+    background-color: #111827;
+    color: #F9FAFB; 
+}
+/* *se nhi ho rha  */
+/* navbar ka color bhi change ho rha hai */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    /* this is nice but not decided final value */
+}
+header {
+    background-color: #1F2937;
+    padding: 1rem 0;
+    border-bottom: 1px solid #374151;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 1.5rem;
+    /* background-color: pink; */
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    background-color: #1F2937; 
+    border-top: 1px solid #374151;
+    /* margin-top: 4rem; */
+    /* padding: 2rem 0; */
+    text-align: center;
+    color: #9CA3AF;
+}
+footer .container{
+    padding: 1rem 1.5rem;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.main-nav {
+    display: flex;
+    gap: 0.5rem;
+}
+.nav-link {
+    color: #9CA3AF;
+    padding: 0.5rem 1rem;
+    /* border-radius: 6px;/ */
+    /* background-color: black; */
+}
+a {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #F9FAFB; 
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F9FAFB;
+    text-decoration: none;
+}
+
