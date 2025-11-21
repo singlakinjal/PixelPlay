@@ -1,0 +1,95 @@
+.innerdiv {
+    max-width: 30rem; 
+    margin: 2rem auto; 
+    background-color: #1F2937; 
+    border-radius: 8px;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerdiv a {
+    color: #2563EB; /* Accent blue */
+    text-decoration : none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.elements {
+    margin: 0;
+    
+}
+p{
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#logintoyouraccount {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #F9FAFB;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+
+
+input.elements {
+    
+    padding: 0.75rem 1rem;
+    background-color: #374151; 
+    border: 1px solid #4B5563; 
+    color: #F9FAFB; 
+    border-radius: 8px;
+    box-sizing: border-box; 
+    margin-bottom: 1.5rem; 
+    font-size: 1rem; 
+}
+button.elements:hover {
+    background-color: #1D4ED8; 
+}
+input.elements:focus {
+    outline: none;
+    border-color: #2563EB; 
+}
+
+
+button.elements {
+    width: 100%;
+    text-align: center;
+    background-color: #2563EB; 
+    color: #F9FAFB;
+    font-weight: bold;
+    padding: 0.8rem 1.25rem;
+    border-radius: 8px;
+    border: none; 
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem; 
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .main-nav {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    .innerdiv {
+        padding: 1.5rem;
+    }
+} 
