@@ -1,19 +1,23 @@
 img{
-
+    
     max-width: 100%;
     height: auto;
     display: block;
 
 }
 .games{
+    margin: 3rem;
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
+    
 
 }
 p{
+    font-size: larger;
     text-align: center;
 }
 .socials{
     display: flex;
 
 }
+

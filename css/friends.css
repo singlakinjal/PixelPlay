@@ -1,6 +1,6 @@
 
 
-/* Center message + button in the page */
+
 main {
     min-height: 26rem; 
     display: flex;
@@ -16,7 +16,7 @@ main p {
     margin-bottom: 16px;
 }
 
-/* Add Friends button */
+
 main button {
     padding: 10px 20px;
     border-radius: 6px;

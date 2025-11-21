@@ -26,14 +26,14 @@
     color: aqua;
 }
 .main-container span{
-    color: #F9FAFB; /* Light text */
+    color: #F9FAFB; 
 }
 .main-container ul {
     list-style-type: disc;
     padding-left: 1.5rem;
 }
 
-/* --- Responsive Styles --- */
+
 @media (max-width: 768px) {
     .header .container {
         flex-direction: column;
