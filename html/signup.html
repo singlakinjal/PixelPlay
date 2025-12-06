@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up - PixelPlay</title>
-  
+
     <link rel="stylesheet" href="../css/Signup.css">
     <link rel="stylesheet" href="../css/common.css">
 </head>
@@ -31,38 +31,36 @@
         <div class="outerdiv">
             <div class="innerdiv">
                 <p class="elements" id="alreadyauser">Already a user?<a href="login.html">Sign in</a></p>
-
-                <input id="username" type="text" class="elements" placeholder="Username">
-                <input id="email" type="email" class="elements" placeholder="Email">
-                <input id="password" type="password" class="elements" placeholder="Password">
-                <input id="confirm-password" type="password" class="elements" placeholder="Confirm Password">
-
-                <button class="elements">Sign Up</button>
+                <input id="email" type="email" class="elements" placeholder="Email" required>
+                <input id="username" type="text" class="elements" placeholder="Username" required>
+                <input id="password" type="password" class="elements" placeholder="Password" required>
+                <input id="confirm-password" type="password" class="elements" placeholder="Confirm Password" required>
+                <p id="signup-message" class="elements"></p>
+                <button id="btn" class="elements">Sign Up</button>
             </div>
         </div>
     </main>
+    
 
-
-    <footer class="footer">
         <div class="container">
             <div class="bottom">
                 <div class="follow">
-                <h4>Follow Us</h4>
-                <div class="socials">
-                    <a href="#"><img src="../assets/instagram.png"></a>
-                    <a href="#"><img src="../assets/facebook.png"></a>
-                    <a href="#"><img src="../assets/X.png"></a>
+                    <h4>Follow Us</h4>
+                    <div class="socials">
+                        <a href="#"><img src="../assets/instagram.png"></a>
+                        <a href="#"><img src="../assets/facebook.png"></a>
+                        <a href="#"><img src="../assets/X.png"></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="support">
-                <h4>Support</h4>
-                <ul>
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
+                <div class="support">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
             </div>
 
             <div class="lastline">
@@ -70,6 +68,7 @@
             </div>
         </div>
     </footer>
+    <script src="../javascript/signup.js"></script>
 
 </body>
 

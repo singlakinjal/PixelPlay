@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - PixelPlay</title>
-    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+    
 </head>
 
 <body>
@@ -30,12 +31,13 @@
 
         <div class="innerdiv">
             <p class="elements" id="logintoyouraccount"> Log in to your account</p>
-            <label for="username" class="elements" id="hi">Username</label>
-            <input id="username" type="text" class="elements" placeholder="Please enter your username ">
+            <label for="username or email" class="elements" id="email">Username/Email</label>
+            <input id="useremail" type="text"  class="elements" placeholder="Please enter your username or email " required>
             <label for="password" class="elements">Password</label>
             <input id="password" type="password" class="elements" placeholder="Please enter your password  ">
             <p class="elements"><a href="./resetpassword.html" id="forgoturpass">Forgot your password?</a></p>
-            <button class="elements">Start Playing</button>
+            <p id="login-message" class="elements"></p>
+            <button id="btn" class="elements">Start Playing</button>
             <p class="elements" id="notauser">Don't have an account yet?<a href="Signup.html">Sign up Now</a></p>
 
         </div>
@@ -68,7 +70,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="../javascript/login.js"></script>
 </body>
 
 </html>
